@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>My First React Component</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div id="root">
+      <!-- 下面这句话非常重要，因为在开发过程中（使用webpack-dev-server启动开发服务）时，并不会实际在src目录下生成bundle.js，打包好的文件是在内存中的，如果需要实时预览到效果，需要在html中引入 -->
+      <script src="bundle.js"></script>
+    </div>
+  </body>
+</html>
